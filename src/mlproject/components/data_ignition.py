@@ -21,7 +21,7 @@ class DataIgnition:
     def initiate_data_ignition(self):
         logging.info('enter the data ignition method')
         try:
-            df=pd.read_csv(r"C:\Users\viive\OneDrive\Desktop/student-dataset.csv")
+            df=pd.read_csv(r"C:\Users\viive\OneDrive\Desktop/stud.csv")
             logging.info('read the dataset as datafram')
 
             os.makedirs(os.path.dirname(self.ignetion_confi.train_data_path),exist_ok=True)
